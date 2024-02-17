@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adam Seaton">
+
+    <title>Results Summary Component</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1 class="visually_hidden">Frontend Mentor Project: Results Summary Component</h1>
+        <article class="card">
+
+            <section class="card__section | results">
+                <h2 class="section__title">Your Result</h2>
+                <div class="circle">
+                    <p class="score">76</p>
+                    <p>of 100</p>
+                </div>
+                <p class="score_rating">Great</p>
+                <p class="score_text">You scored higher than 65% of the people who have taken these tests.</p>
+            </section>
+
+            <section class="card__section | summary">
+                <h2 class="section__title">Summary</h2>
+
+                <div class="topic__container | topic--theme--red">
+                    <div class="flex_container"><img src="images/icon-reaction.svg" alt=""><h3 class="topic__title">Reaction</h3></div>
+                    <p class="topic__score"><span class="txt_bold txt_dark">80</span> / 100</p>
+                </div>
+
+                <div class="topic__container | topic--theme--orange">
+                    <div class="flex_container"><img src="images/icon-memory.svg" alt=""><h3 class="topic__title">Memory</h3></div>
+                    <p class="topic__score"><span class="txt_bold txt_dark">92</span> / 100</p>
+                </div>
+
+                <div class="topic__container | topic--theme--green">
+                    <div class="flex_container"><img src="images/icon-verbal.svg" alt=""><h3 class="topic__title">Verbal</h3></div>
+                    <p class="topic__score"><span class="txt_bold txt_dark">61</span> / 100</p>
+                </div>
+
+                <div class="topic__container | topic--theme--blue">
+                    <div class="flex_container"><img src="images/icon-visual.svg" alt=""><h3 class="topic__title">Visual</h3></div>
+                    <p class="topic__score"><span class="txt_bold txt_dark">72</span> / 100</p>
+                </div>
+
+                <button class="btn">Continue</button>
+            </section>
+
+        </article>
+    </main>
+</body>
+</html>
